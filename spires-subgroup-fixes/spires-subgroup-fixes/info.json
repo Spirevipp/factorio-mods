@@ -4,12 +4,16 @@
 	"title": "Spirevipp's subgroup fixes",
 	"author": "Spirevipp",
 	"factorio_version": "1.1",
-	"dependencies": [
-		"base >= 1.1",
-		"miniloader >= 1.15.6",
-		"SchallCircuitGroup",
-		"? space-exploration",
-		"? aai-containers"
-	],
+	"contact": "",
+	"homepage": "",
+	"package": {
+		"git_publish_branch": "main",
+		"no_git_push": true,
+		"no_git_tag": true,
+		"no_portal_upload": true,
+		"ignore": [],
+		"scripts": {}
+	},
+	"dependencies": ["base >= 1.1", "? miniloader", "? SchallCircuitGroup", "? space-exploration", "? aai-containers"],
 	"description": "Moves items from mods to their own subgroup and sorts them"
 }

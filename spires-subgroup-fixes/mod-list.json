@@ -1,13 +1,12 @@
 {
 	"mods": [
 		{
-			"name": "base",
-			"enabled": true
+			"enabled": true,
+			"name": "base"
 		},
-
 		{
-			"name": "spires-subgroup-fixes",
-			"enabled": true
+			"enabled": true,
+			"name": "spires-subgroup-fixes"
 		}
 	]
 }

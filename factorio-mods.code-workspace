@@ -5,7 +5,30 @@
 		}
 	],
 	"settings": {
+		"[lua]": {
+			"editor.defaultFormatter": "sumneko.lua"
+		},
+		"[json]": {
+			"editor.quickSuggestions": {
+				"strings": true
+			},
+			"editor.suggest.insertMode": "replace",
+			"gitlens.codeLens.scopes": ["document"]
+		},
+		"Lua.telemetry.enable": false,
 		"Lua.runtime.plugin": ".vscode/lua/plugin.lua",
+		"Lua.completion.enable": true,
+		"Lua.completion.showParams": true,
+		"Lua.completion.autoRequire": true,
+		"Lua.completion.callSnippet": "Disable",
+		"Lua.completion.displayContext": 0,
+		"Lua.completion.keywordSnippet": "Replace",
+		"Lua.completion.postfix": "@",
+		"Lua.completion.requireSeparator": ".",
+		"Lua.completion.showWord": "Fallback",
+		"Lua.completion.workspaceWord": true,
+		"Lua.format.defaultConfig": {},
+		"Lua.format.enable": true,
 		"factorio.debug.runMode": "inline",
 		"factorio.docs.builtinOperators": true,
 		"factorio.docs.generateDocs": true,
@@ -56,5 +79,8 @@
 			"d:\\SteamLibrary\\steamapps\\common\\Factorio\\data\\core\\lualib",
 			".vscode/factorio"
 		]
+	},
+	"extensions": {
+		"recommendations": ["justarandomgeek.factoriomod-debug", "sumneko.lua"]
 	}
 }
