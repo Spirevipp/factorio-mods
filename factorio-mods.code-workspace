@@ -1,0 +1,60 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"Lua.runtime.plugin": ".vscode/lua/plugin.lua",
+		"factorio.debug.runMode": "inline",
+		"factorio.docs.builtinOperators": true,
+		"factorio.docs.generateDocs": true,
+		"factorio.docs.builtinCustomStyle": {},
+		"factorio.docs.docLinksVerion": "current",
+		"factorio.docs.numberStyle": "aliasNative",
+		"factorio.docs.offerUpdate": true,
+		"factorio.docs.signedUMinus": true,
+		"factorio.docs.useInteger": true,
+		"factorio.profile.colorBy": "totaltime",
+		"factorio.profile.colorScaleFactor": 1,
+		"factorio.profile.colorScaleMode": "boost",
+		"factorio.profile.displayAverageTime": true,
+		"factorio.profile.rulers": [
+			{
+				"color": "#FF0000",
+				"threshold": 0.75
+			},
+			{
+				"color": "#FF6600",
+				"threshold": 0.5
+			}
+		],
+		"factorio.profile.timerHighlightColor": "#FF0000",
+		"factorio.versions": [
+			{
+				"name": "1.1.6.9",
+				"factorioPath": "d:\\SteamLibrary\\steamapps\\common\\Factorio\\bin\\x64\\factorio.exe",
+				"active": true
+			}
+		],
+		"factorio.workspace.library": "",
+		"factorio.workspace.manageLibraryDataLinks": true,
+		"factorio.workspace.manageLibraryDocsLink": true,
+		"Lua.diagnostics.globals": [
+			"mods",
+			"table_size",
+			"log",
+			"localised_print",
+			"serpent",
+			"global",
+			"__DebugAdapter",
+			"__Profiler"
+		],
+		"Lua.runtime.version": "Lua 5.2",
+		"Lua.workspace.library": [
+			"d:\\SteamLibrary\\steamapps\\common\\Factorio\\data",
+			"d:\\SteamLibrary\\steamapps\\common\\Factorio\\data\\core\\lualib",
+			".vscode/factorio"
+		]
+	}
+}

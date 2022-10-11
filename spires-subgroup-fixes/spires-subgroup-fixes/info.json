@@ -1,0 +1,15 @@
+{
+	"name": "spires-subgroup-fixes",
+	"version": "0.1.0",
+	"title": "Spirevipp's subgroup fixes",
+	"author": "Spirevipp",
+	"factorio_version": "1.1",
+	"dependencies": [
+		"base >= 1.1",
+		"miniloader >= 1.15.6",
+		"SchallCircuitGroup",
+		"? space-exploration",
+		"? aai-containers"
+	],
+	"description": "Moves items from mods to their own subgroup and sorts them"
+}
